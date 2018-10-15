@@ -1,0 +1,55 @@
+.product-rate {
+  rect {
+    height: 100%;
+    fill: $primary-color;
+    stroke: $primary-color;
+  }
+  &-dynamic {
+    path {
+      cursor: pointer;
+    }
+  }
+  &__selected-0 {
+    .product-rate__stars path {
+      fill: none;
+    }
+  }
+  &__selected-1 {
+    .product-rate__stars path:nth-child(1) {
+      fill: $primary-color;
+      stroke: $primary-color;
+    }
+  }
+  &__selected-2 {
+    .product-rate__stars {
+      path:nth-child(1), path:nth-child(2) {
+        fill: $primary-color;
+        stroke: $primary-color;
+      }
+    }
+  }
+  &__selected-3 {
+    .product-rate__stars {
+      path:nth-child(1), path:nth-child(2), path:nth-child(3) {
+        fill: $primary-color;
+        stroke: $primary-color;
+      }
+    }
+  }
+  &__selected-4 {
+    .product-rate__stars {
+      path:nth-child(1), path:nth-child(2), path:nth-child(3), path:nth-child(4) {
+        fill: $primary-color;
+        stroke: $primary-color;
+      }
+    }
+  }
+  &__selected-5 {
+    .product-rate__stars {
+      path:nth-child(1), path:nth-child(2), path:nth-child(3), path:nth-child(4), path:nth-child(5) {
+        fill: $primary-color;
+        stroke: $primary-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import './base/_base';
+@import './vendors/_vendors';
+@import './components/_components';
+@import './layout/_layout';
+@import './pages/_pages';
+
+html, body {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Raleway, sans-serif;
+  color: $text-color;
+}
+#root, .App {
+  min-height: 100%;
+  height: 1px;
+}
+.center-content {
+  width: 100%;
+  height: calc(100% - 81px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

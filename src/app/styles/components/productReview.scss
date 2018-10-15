@@ -1,0 +1,19 @@
+.product-review {
+  background: $grey;
+  margin-bottom: 15px;
+  padding: 10px;
+  &__name {
+    font-size: 18px;
+  }
+  &__date {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  &__text {
+    margin-top: 10px;
+    word-wrap: break-word;
+  }
+  &__rate {
+    text-align: center;
+  }
+}

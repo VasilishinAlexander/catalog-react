@@ -1,0 +1,13 @@
+.new-review {
+  &__success, &__error {
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  &__success {
+    color: $success-color;
+  }
+  &__error {
+    color: $error-color;
+  }
+}

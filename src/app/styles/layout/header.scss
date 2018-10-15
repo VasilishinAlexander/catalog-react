@@ -1,0 +1,28 @@
+.header {
+  &__content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    background: $primary-color;
+    color: #fff;
+    padding: 15px 0;
+    border-bottom: 1px solid $light-grey;
+  }
+  &__fake {
+    height: 81px;
+  }
+}
+.user-actions {
+  a {
+    margin-left: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: $light-grey;
+    transition: color .2s;
+    &:hover {
+      color: #fff;
+    }
+  }
+}

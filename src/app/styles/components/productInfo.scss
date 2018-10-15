@@ -1,0 +1,25 @@
+.productInfoBlock {
+  background: #fff;
+  color: $text-color;
+  font-weight: 400;
+  &__text {
+    padding: 10px;
+  }
+  &__title {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  &__description {
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+  &__img {
+    text-align: center;
+    img {
+      max-width: 100%;
+    }
+  }
+}
